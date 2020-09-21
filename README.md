@@ -6,3 +6,4 @@ templates link: https://www.figma.com/file/baQy8qaeJ6hRQfkpm6taqmTh/Templates-%2
 - learning figma
 - learning sass
 - learning Bootstrap 4
+- learning Git
