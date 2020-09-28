@@ -1,0 +1,113 @@
+$font-main: Montserrat, sans-serif
+
+@mixin background-main () 
+	background-size: cover
+	background-repeat: no-repeat
+	background-position: center
+
+body 
+	font-family: $font-main
+	margin: 0
+	padding: 0
+
+.header 
+	width: 100%
+	height: 100vh
+	left: 0px
+	top: 0px
+	background: url(../img/header2.jpeg)
+	@include background-main ()
+	text-align: center
+
+.navbar-nav 
+	padding-top: 2vh
+	padding-bottom: 1vh
+
+.navbar-dark .navbar-nav .nav-link 
+	color: white
+
+.navbar-custom 
+	font-style: normal
+	font-weight: 500
+	font-size: 16px
+	line-height: 20px
+	width: 100%
+	left: 0px
+	top: 0	
+	border-bottom-style: solid
+	border-bottom-width: 1px
+	border-bottom-color: rgba(161, 161, 161, .5)
+
+.nav-link 
+	margin-right: 3vw
+
+.reverse 
+	display: flex  
+	justify-content: flex-end 
+
+.overlay 
+	height: 70vh
+	display: flex
+	text-align: center
+	color: white
+
+.title 
+	margin: auto
+
+.intro 
+	font-size: 16px
+	font-weight: 500
+	text-align: center
+
+.hello 
+	font-weight: 800
+	line-height: 64px
+
+.btn-project 
+	margin-top: 25px
+	width: 200px
+	height: 45px
+	background: #4985FF
+	box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25)
+	border-radius: 30px
+	color: white
+	font-size: 16px
+	font-weight: 500
+
+.btn-block-one 
+	margin-top: 56px
+
+.block-one 
+	height: 100vh
+	text-align: center
+
+.padding-block 
+	padding-top: 5vh
+	margin-bottom: 40px
+
+.block-one-custom 
+	text-align: left
+	font-size: 14px
+
+.grey 
+	color: grey
+
+h3 
+	color: black
+	font-size: 18px
+	margin-top: 5vh
+
+.block-two
+	background-color: #E5E5E5
+	background-position: center
+	margin-top: 105px
+	width: 100%
+
+
+@media (max-width: 768px)  
+	.reverse 
+		justify-content: center
+	h1 
+		font-size: 32px 
+
+
